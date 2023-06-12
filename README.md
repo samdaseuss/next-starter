@@ -6,9 +6,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ├── node_modules
 ├── public
 ├── src
+│   ├── store
+│   │   ├── helloSlice.js
+│   │   └── index.js
 │   ├── components
 │   ├── pages
+│   │   ├── _document.js
+│   │   ├── _app.js
+│   │   └── index.js
 │   └── styles
+│       ├── global.scss
+│       ├── base.scss
+│       └── Home.module.scss
 ├── .env
 ├── .gitignore
 ├── jsconfig.json
